@@ -53,3 +53,17 @@ print(my_tuple.index(4.5))
 
 
 # Sets
+set_a = {1,2,3,4,5,5}
+set_b = {6,7,4,8,9,2,1,4}
+print(set_a)
+# sets do not print dublicates
+
+#  the following fomulas can be used
+#  add
+# discard
+print(set_a | set_b)
+print(set_a & set_b)
+print(set_a - set_b)
+print(set_a ^ set_b)
+
+# sets id like an object but in python
